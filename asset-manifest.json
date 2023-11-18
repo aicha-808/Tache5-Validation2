@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Tache5-Validation2/static/css/main.6e728704.css",
+    "main.js": "/Tache5-Validation2/static/js/main.3af338bc.js",
+    "static/media/pImg2.png": "/Tache5-Validation2/static/media/pImg2.250f12ac557b286ebf50.png",
+    "static/media/img3.png": "/Tache5-Validation2/static/media/img3.9ed7ba8d1acab804a245.png",
+    "static/media/pImg1.png": "/Tache5-Validation2/static/media/pImg1.756810360beb9c4359b9.png",
+    "static/media/pImg3.png": "/Tache5-Validation2/static/media/pImg3.1308ef48d9aca4a9f8cf.png",
+    "static/media/pImg4.png": "/Tache5-Validation2/static/media/pImg4.d10d04e7ece5c0cd2592.png",
+    "static/media/testimonial1.png": "/Tache5-Validation2/static/media/testimonial1.e4f79183e07acdabfd9e.png",
+    "static/media/testimonial2.png": "/Tache5-Validation2/static/media/testimonial2.d89d1d53ac1c79ed2063.png",
+    "static/media/revicons.eot": "/Tache5-Validation2/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/img2.png": "/Tache5-Validation2/static/media/img2.11deb2a367e96da92b69.png",
+    "static/media/revicons.ttf": "/Tache5-Validation2/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/img1.png": "/Tache5-Validation2/static/media/img1.7c44be7410070e7ba246.png",
+    "static/media/revicons.woff": "/Tache5-Validation2/static/media/revicons.e8746a624ed098489406.woff",
+    "index.html": "/Tache5-Validation2/index.html",
+    "static/media/flech.svg": "/Tache5-Validation2/static/media/flech.3297eb27844e483ea3eb80aa9e45f0aa.svg",
+    "static/media/chevron-right.svg": "/Tache5-Validation2/static/media/chevron-right.61c607bb99397366b3b25f0ea180d905.svg",
+    "main.6e728704.css.map": "/Tache5-Validation2/static/css/main.6e728704.css.map",
+    "main.3af338bc.js.map": "/Tache5-Validation2/static/js/main.3af338bc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6e728704.css",
+    "static/js/main.3af338bc.js"
+  ]
+}
