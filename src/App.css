@@ -1,0 +1,140 @@
+body{
+  box-sizing: border-box;
+  position: relative;
+}
+header{
+  width: 100%;
+  height: auto;
+  background-color:#252B42 !important;
+  padding-top: 10%;
+}
+html{
+  scroll-behavior: smooth;
+
+}
+.navbar {
+  position: fixed;
+  z-index: 1;
+  background-color: #252B42;
+}
+/* *****card home****** */
+.cardimg1{
+  width: 20%;
+  border-radius: 5px;
+  padding: 1rem;
+  background-color: #FFDCD1;
+}
+.cardimg2{
+  width: 20%;
+  border-radius: 5px;
+  padding: 1rem;
+  background-color:#B9EAA8;
+  ;
+}
+.cardimg3{
+  width: 20%;
+  border-radius: 5px;
+  padding: 1rem;
+  background-color: #FFFFFF;
+}
+.trait{
+  width: 20%;
+  border: 1px solid ;
+  color: red !important;
+}
+.traitS{
+  width: 20%;
+  border: 1px solid ;
+  color: white !important;
+}
+/* ******Product****** */
+.cardPro1{
+  height: 80%;
+}
+.cardPro2{
+  height: 80%;
+  position: relative;
+}
+.imagePositionM{
+  z-index: 1;
+}
+.imagePositionM .img-fluid {
+  width: 45%;
+}
+.imagePositionL{
+  position: absolute;
+  left: 8%;
+  z-index: 2;
+}
+.imagePositionR{
+ margin-top: -8%;
+  z-index: 2;
+  margin-left: 8%;
+  width: 50%;
+}
+/* *******Pricing****** */
+.bagImg{
+  width: 30%;
+  height: 50%;
+  background-image: url("../src/images/pImg1.png");
+}
+.icones{
+  position: absolute;
+  left: 30%;
+  top: 40%;
+}
+.cercle{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  padding: 3px;
+  text-align: center;
+  margin-right: 5px;
+}
+.cercle img{
+  width: 15px; 
+}
+.footer{
+  width: 100%;
+  height: auto;
+  background-color:#252B42 !important;
+}
+.footer .Link a, .footer p{
+ font-size: 14px;
+}
+@media (max-width: 480px) {
+  .contH1{
+  width: 100% !important;
+  text-align: left;
+  }
+  .cardPro1{
+    height: 100%;
+  }
+  .cardPro2{
+    height: 100%;
+    position: relative;
+  }
+  .imagePositionM{
+    z-index: 1;
+  }
+  .imagePositionM .img-fluid {
+    width: 50%;
+  }
+  .imagePositionL{
+   position: static;
+   text-align: center;
+  }
+  .imagePositionR{
+   margin-top: 0%;
+    margin-left: 0%;
+    width: 60%;
+    margin: auto;
+    margin-top: 1rem;
+  }
+}
+@media (max-width: 1200px) {
+  .contH1{
+  width: 100% !important;
+  text-align: center;
+  }
+}
