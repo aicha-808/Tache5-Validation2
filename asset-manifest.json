@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Tache5-Validation2/static/css/main.0fc098fe.css",
-    "main.js": "/Tache5-Validation2/static/js/main.ba13d4a5.js",
+    "main.css": "/Tache5-Validation2/static/css/main.255c78c9.css",
+    "main.js": "/Tache5-Validation2/static/js/main.a3b0b68c.js",
     "static/media/pImg2.png": "/Tache5-Validation2/static/media/pImg2.250f12ac557b286ebf50.png",
     "static/media/img3.png": "/Tache5-Validation2/static/media/img3.9ed7ba8d1acab804a245.png",
     "static/media/pImg1.png": "/Tache5-Validation2/static/media/pImg1.756810360beb9c4359b9.png",
@@ -16,11 +16,11 @@
     "static/media/revicons.woff": "/Tache5-Validation2/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/Tache5-Validation2/index.html",
     "static/media/flech.svg": "/Tache5-Validation2/static/media/flech.3297eb27844e483ea3eb80aa9e45f0aa.svg",
-    "main.0fc098fe.css.map": "/Tache5-Validation2/static/css/main.0fc098fe.css.map",
-    "main.ba13d4a5.js.map": "/Tache5-Validation2/static/js/main.ba13d4a5.js.map"
+    "main.255c78c9.css.map": "/Tache5-Validation2/static/css/main.255c78c9.css.map",
+    "main.a3b0b68c.js.map": "/Tache5-Validation2/static/js/main.a3b0b68c.js.map"
   },
   "entrypoints": [
-    "static/css/main.0fc098fe.css",
-    "static/js/main.ba13d4a5.js"
+    "static/css/main.255c78c9.css",
+    "static/js/main.a3b0b68c.js"
   ]
 }
