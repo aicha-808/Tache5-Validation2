@@ -1,7 +1,7 @@
 import { Bouton } from './Bouton';
 export const Contact = () => {
     return(
-        <section className="container p-5 ">
+        <section className="container p-5" id="contact">
             <div className="row text-center ">
                 <div className="col-sm-6 mx-auto "> 
                     <h6 className="text-primary">Practice Advice</h6> 

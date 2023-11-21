@@ -1,8 +1,8 @@
 import { BoutonSup } from "./BoutonSup";
-import chRight from "../images/chevron-right.svg"
+import chRight from "../images/none.png"
 export const ComposantPricingBas = (props) => {
     return(
-        <div className="frame p-3">
+        <div className="frame p-3 animated  slideInLeft delay-2s">
             <div className="d-flex justify-content-between align-items-center">
                 <a className="text-decoration-none fw-semibold" href="#r">{props.matiere}</a> 
                 <span className=" bg-dark rounded-5 p-1"><img src={props.etoile} className="img-fluid" alt="..."/>

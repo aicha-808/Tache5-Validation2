@@ -1,5 +1,11 @@
-body{
+* {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
+  }
+body{
+  font-weight: 400;
+  overflow-x: hidden;
   position: relative;
 }
 header{
@@ -10,13 +16,31 @@ header{
 }
 html{
   scroll-behavior: smooth;
-
+  scroll-padding-top: 75px;
 }
-.navbar {
+nav.navbar {
+  padding: 18px 0;
   position: fixed;
-  z-index: 1;
+  width: 100%;
+  top: 0;
+  z-index: 9999;
+  transition:  0.32s ease-in-out;
+}
+nav.navbar.scrolled {
+  padding: 0px 0;
   background-color: #252B42;
 }
+
+/* liens de navigations:pages */
+nav.navbar .navbar-nav .nav-link.navbar-link {
+  color: #FFFFFF !important; 
+  margin-right: 5px;
+}
+.contBouton{
+  display: flex;
+  align-items: center;
+  margin-left: 0%;
+ }
 /* *****card home****** */
 .cardimg1{
   width: 20%;
@@ -102,10 +126,24 @@ html{
 .footer .Link a, .footer p{
  font-size: 14px;
 }
+.textFooter{
+  margin: auto;
+  text-align: center;
+}
+.getintouch{
+  padding-left: 3rem;
+}
 @media (max-width: 480px) {
+  section{
+    padding: 0%;
+    margin: 0%;
+  }
   .contH1{
   width: 100% !important;
   text-align: left;
+  }
+  .home{
+    margin-top: 60% !important;
   }
   .cardPro1{
     height: 100%;
@@ -131,10 +169,33 @@ html{
     margin: auto;
     margin-top: 1rem;
   }
+  .footer p{
+    font-size: 8px;
+   }
+   .contBouton{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 0%;
+   }
+   .textFooter{
+    margin: 0;
+    text-align: left;
+  }
+  .getintouch{
+    padding-left: 0%;
+  }
 }
 @media (max-width: 1200px) {
+  section{
+    padding: 0%;
+    margin: 0%;
+  }
   .contH1{
   width: 100% !important;
   text-align: center;
+  }
+  .getintouch{
+    padding-left: 0%;
   }
 }

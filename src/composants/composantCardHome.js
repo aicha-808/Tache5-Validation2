@@ -3,7 +3,7 @@ export const ComposantCardHome = (props) => {
         <div className={props.backg} >
             <div className="card-body">
                 <div className={props.cardimg}>
-                    <img src={props.icone} className="img-fluid" alt="..." />
+                    <img src={props.icone} className="img-fluid  animated infinite swing delay-10s" alt="..." />
                 </div>
                 <h5 className="card-title mt-3">{props.titre}</h5>
                 <div className={props.tiret}></div>

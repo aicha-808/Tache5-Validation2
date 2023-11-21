@@ -6,8 +6,8 @@ import icon1 from "../images/Vector4.png"
 
 export const ComposantCardPricing = (props) => {
     return(
-        <div className="card mt-5 border-0">
-            <img src={props.igm} className="card-img p-relative" alt="..."/>
+        <div className="card mt-5 border-0  ">
+            <img src={props.igm} className="card-img p-relative  animated  zoomInRight delay-10s" alt="..."/>
             <div className="card-img-overlay">
             <h5 className="card-title bg-danger w-25 text-center text-light">{props.titre}</h5>
             <div className="icones d-flex g-2 ">

@@ -9,7 +9,7 @@ export const Footer = () => {
             <section className="container-fluid p-5 text-light footer mx-0">
             <div className="row ">
                 <div className="col-sm-3 mb-3">
-                    <div className="px-5">
+                    <div className=" getintouch">
                         <h3 className="">Get In Touch </h3> 
                         <div className="px-2"> <p className="">the quick fox jumps over the lazy dog</p> </div>
                         <div className="icone ">
@@ -51,7 +51,7 @@ export const Footer = () => {
         </section> 
         <div className="container text-secondary mt-4">
             <div className="row ">
-                <div className="col-sm-6 mx-auto text-center">
+                <div className="col-sm-6 textFooter">
                 <p className="">Made With Love By Figmaland All Right Reserved</p>
                 </div> 
             </div>

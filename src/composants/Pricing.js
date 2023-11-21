@@ -9,7 +9,7 @@ import vector2 from "../images/Vector2.png";
 
 export const Pricing = () => {
     return(
-        <section className="container p-5">
+        <section className="container p-5" id="pricing">
             <div className="row ">
                 <div className="col-sm-6  "> 
                     <h6 className="text-primary">Practice Advice</h6> 

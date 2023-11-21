@@ -1,4 +1,4 @@
-import { Navbar } from './composants/Navbar';
+import { NavBar } from './composants/Navbar';
 import { Home } from './composants/Home';
 import { Product } from './composants/Product';
 import { Pricing } from './composants/Pricing';
@@ -6,11 +6,12 @@ import { Testimonials } from './composants/Testimonials';
 import { Contact } from './composants/Contact';
 import { Footer } from './composants/footer';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      <NavBar />
       <Home />
       <Product />
       <Pricing />

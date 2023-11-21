@@ -7,13 +7,13 @@ import icon3 from "../images/icone3.png";
 export const Home = () => {
     return(
       <header>
-        <section className="container p-5 text-light">
+        <section className="container p-5 text-light home" id="home">
           <div className="row ">
             <div className="col-sm-6 mx-auto text-center"> 
-              <h4 className="text-primary">Welcom</h4> 
-              <div className="contH1 mx-auto w-75 mt-3 lh-5"><h1 className="">Selling on the internet like a pro</h1></div> 
+              <h4 className="text-primary animated  slideInDown delay-2s">Welcom</h4> 
+              <div className="contH1 mx-auto w-75 mt-3 lh-5"><h1 className="animated  slideInDown delay-2s">Selling on the internet like a pro</h1></div> 
               <div className=" ">
-                <p className="contH1 mx-auto  w-75 lh-2 mt-3">We know how large objects will act,but things on a small scale just do not qct that way.</p>
+                <p className="contH1 mx-auto  w-75 lh-2 mt-3 animated  slideInDown delay-2s">We know how large objects will act,but things on a small scale just do not qct that way.</p>
               </div>
               <div className="mt-4">
                 <Bouton titre='Get Quote Now' bckg="btn btn-primary mb-3"/>
@@ -28,9 +28,9 @@ export const Home = () => {
                 icone={icon1}
                 titre="Training Courses"
                 tiret="trait mt-3"
-                backg=" card p-3 bg-light"> 
+                backg=" card p-3 bg-light animated  slideInUp delay-10s "> 
                {
-                <p p className="mt-3">The gradual accumulation of information about atomic and small-scale behaviour.</p>
+                <p  className="mt-3">The gradual accumulation of information about atomic and small-scale behaviour.</p>
                 }
               </ComposantCardHome> 
             </div> 
@@ -40,7 +40,7 @@ export const Home = () => {
                 icone={icon2}
                 titre="2,769 online courses"
                 tiret="trait mt-3"
-                backg=" card p-3 bg-light"> 
+                backg=" card p-3 bg-light animated  slideInUp delay-10s "> 
               {
                 <p p className="mt-3">The gradual accumulation of information about atomic and small-scale behaviour.</p>
               }
@@ -52,7 +52,7 @@ export const Home = () => {
                 icone={icon3}
                 titre="Training Courses"
                 tiret="traitS mt-3"
-                backg=" card p-3 bg-primary text-light">
+                backg=" card p-3 bg-primary text-light animated  slideInUp delay-10s ">
                 {
                   <p className="mt-3">The gradual accumulation of information about atomic and small-scale behaviour.</p>
                 }

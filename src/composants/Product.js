@@ -5,7 +5,7 @@ import image3  from "../images/img2.png";
 
 export const Product = () => {
     return(
-        <section className="container p-5 text-light ">
+        <section className="container p-5 text-light" id="product">
             <div className="row ">
                 <div className="col-sm-5 cardPro1 "> 
                     <ComposantCardProduct 
@@ -15,13 +15,13 @@ export const Product = () => {
                     </ComposantCardProduct> 
                 </div>
                 <div className="col-sm-7 cardPro2"> 
-                    <div className="imagePositionL">
+                    <div className="imagePositionL animated infinite bounce delay-10s">
                         <img src= {image1} className="img-fluid" alt="..." />
                     </div>
                     <div className="imagePositionM text-center">
                         <img src= {rectangle} className="img-fluid " alt="..." />
                     </div> 
-                    <div className="imagePositionR">
+                    <div className="imagePositionR animated  slideInLeft delay-10s">
                         <img src= {image3} className="img-fluid" alt="..." />
                     </div>
                 </div>

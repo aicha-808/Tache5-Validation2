@@ -1,5 +1,5 @@
 import { BoutonSup } from "./BoutonSup";
-import chRight from "../images/chevron-right.svg";
+import chRight from "../images/none.png";
 
 export const ComposantCardProduct = (props) => {
     return(
