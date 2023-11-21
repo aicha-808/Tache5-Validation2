@@ -44,7 +44,7 @@ export const NavBar = () => {
                             onClick={() => onUpdateActiveLink('product')}>Product</Nav.Link>
                             <Nav.Link href="#pricing" className={activeLink === 'pricing'? 'active navbar-link': 'navbar-link'}
                             onClick={() => onUpdateActiveLink('pricing')}>Pricing</Nav.Link>
-                             <Nav.Link href="#sscontact" className={activeLink === 'contact'? 'active navbar-link': 'navbar-link'}
+                             <Nav.Link href="#contact" className={activeLink === 'contact'? 'active navbar-link': 'navbar-link'}
                             onClick={() => onUpdateActiveLink('contact')}>Contact</Nav.Link>
                         </Nav>
                         <div className="d-flex  contBouton">
